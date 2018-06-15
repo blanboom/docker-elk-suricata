@@ -14,7 +14,7 @@ ADD ./30-outputs.conf ${LOGSTASH_PATH_CONF}/conf.d/30-outputs.conf
 ADD ./pfsense2_4_3.grok ${LOGSTASH_PATH_CONF}/conf.d/patterns/pfsense2_4_3.grok
 
 # host files
-RUN echo '192.168.3.102 logs.blanboom.org logs' >> /etc/hosts
+RUN echo '192.168.3.10 logs.blanboom.org logs' >> /etc/hosts
 RUN echo 'logs' >> /etc/hostname
 
 # GeoIP
