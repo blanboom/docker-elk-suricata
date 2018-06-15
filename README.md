@@ -1,4 +1,4 @@
-适用于 [pfSense](https://www.pfsense.org) + [Suricata](https://suricata-ids.org) 的 [ELK Stack](https://www.elastic.co/elk-stack)。用于可视化 pfSense 路由器/防火墙中的日志信息。已对 [Synology](https://www.synology.com/zh-cn) NAS 进行适配。
+适用于 [pfSense](https://www.pfsense.org) + [Suricata](https://suricata-ids.org) 的 [ELK Stack](https://www.elastic.co/elk-stack)，能够可视化 pfSense 路由器/防火墙中的日志信息。已对 [Synology](https://www.synology.com/zh-cn) NAS 进行适配。
 
 相关文章：[我的 pfSense 软路由配置：QoS、IDS 与流量监控](https://blanboom.org/2018/pfsense-setup/)
 
