@@ -22,9 +22,10 @@ docker run -p 5601:5601 -p 9200:9200 -p 5140:5140 -p 5140:5140/udp -v /your/loca
 - 9200 (Elasticsearch JSON 接口)
 - 5140 (Syslog 服务器端口，可通过 TCP 与 UDP 协议接收 syslog)
 
-此外，还需要 a) 设置将 Suricata 的 Alert 记录在 syslog，并将 pfSense 的 syslog 发送到 5140 端口，b) 在 kibana 网页中导入[a3ilson/pfelk](https://github.com/a3ilson/pfelk/) 中的配置。详细步骤可参考 [http://pfelk.3ilson.com](http://pfelk.3ilson.com).
+此外，还需要：
 
-
-在不同的网络环境下，部分文件可能需要修改。具体修改方式也请参考 http://pfelk.3ilson.com
+1. 设置将 Suricata 的 Alert 记录在 syslog，并将 pfSense 的 syslog 发送到 5140 端口
+2. 在 kibana 网页中导入[a3ilson/pfelk](https://github.com/a3ilson/pfelk/) 中的配置
+3. 对于部分网络环境，可能需要对相关文件进行修改，具体请参考 [http://pfelk.3ilson.com](http://pfelk.3ilson.com)
 
 Docker 镜像的更多使用方法，可参考：http://elk-docker.readthedocs.io
