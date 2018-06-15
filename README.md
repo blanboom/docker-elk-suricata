@@ -8,7 +8,7 @@ Docker Hub 地址：https://hub.docker.com/r/blanboom/elk-suricata/
 
 1. 本 Docker 镜像基于 [spujadas/elk-docker](https://github.com/spujadas/elk-docker)
 2. 配置文件来自：[a3ilson/pfelk](https://github.com/a3ilson/pfelk/)
-3. 主要根据 [andig/syno-elk-docker](https://github.com/andig/syno-elk-docker) 对 Synology NAS 进行适配
+3. 根据 [andig/syno-elk-docker](https://github.com/andig/syno-elk-docker) 对 Synology NAS 进行适配
 
 ## 使用方法
 
@@ -25,7 +25,7 @@ docker run -p 5601:5601 -p 9200:9200 -p 5140:5140 -p 5140:5140/udp -v /your/loca
 此外，还需要：
 
 1. 设置将 Suricata 的 Alert 记录在 syslog，并将 pfSense 的 syslog 发送到 5140 端口
-2. 在 kibana 网页中导入[a3ilson/pfelk](https://github.com/a3ilson/pfelk/) 中的配置
+2. 在 kibana 网页中导入 [a3ilson/pfelk](https://github.com/a3ilson/pfelk/) 中的配置
 3. 对于部分网络环境，可能需要对相关文件进行修改，具体请参考 [http://pfelk.3ilson.com](http://pfelk.3ilson.com)
 
 Docker 镜像的更多使用方法，可参考：http://elk-docker.readthedocs.io
