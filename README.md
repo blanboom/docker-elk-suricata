@@ -4,6 +4,8 @@
 
 Docker Hub 地址：https://hub.docker.com/r/blanboom/elk-suricata/
 
+![](https://raw.githubusercontent.com/blanboom/docker-elk-suricata/master/screenshot.jpg)
+
 ## 关于本镜像
 
 1. 本 Docker 镜像基于 [spujadas/elk-docker](https://github.com/spujadas/elk-docker)
